@@ -4,8 +4,8 @@
   "description": "Showing what an NPM version would look like",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html basics.html"
+    "start": "npx parcel index.html --open",
+    "build": "npx parcel build index.html basics.html"
   },
   "dependencies": {
     "@tensorflow/tfjs": "^3.0.0",
